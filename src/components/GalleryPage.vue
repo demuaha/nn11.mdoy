@@ -38,7 +38,6 @@
 
 <script>
 import { defineComponent, ref } from 'vue';
-
 export default defineComponent({
   components: {
     'header-component': () => import('../components/Header.vue'),
@@ -46,18 +45,18 @@ export default defineComponent({
   },
   setup() {
     const events = ref([
-      { id: 1, title: 'Гуляй Масленица 2', date: '2023', thumbnail: '/src/images/merphotos/maslenca2/Массленница1.jpg', album: ['/src/images/merphotos/maslenca2/Массленница1.jpg', '/src/images/merphotos/maslenca2/Массленица2.jpg', '/src/images/merphotos/maslenca2/Массленица3.jpg'] },
-      { id: 2, title: 'День знаний', date: '2023', thumbnail: '/src/images/merphotos/denznaniy/день знаний.jpg', album: ['/src/images/merphotos/denznaniy/день знаний.jpg', '/src/images/merphotos/denznaniy/день знаний2.jpg', '/src/images/merphotos/denznaniy/день знаний3.jpg'] },
-      { id: 3, title: 'Гуляния Масленица', date: '2021', thumbnail: '/src/images/merphotos/maslenica2021/гуляй масленница1.jpg', album: ['/src/images/merphotos/maslenica2021/гуляй масленница1.jpg', '/src/images/merphotos/maslenica2021/гуляй масленница2.jpg', '/src/images/merphotos/maslenica2021/гуляй масленница3.jpg'] },
-      { id: 4, title: 'Викторина знатоки дорог', date: '2023', thumbnail: '/src/images/merphotos/victorina_dorog/викторинаПДД1.jpg', album: ['/src/images/merphotos/victorina_dorog/викторинаПДД1.jpg', '/src/images/merphotos/victorina_dorog/ВикторинаПДД2.jpg', '/src/images/merphotos/victorina_dorog/ВикторинаПДД3.jpg'] },
-      { id: 5, title: 'В гости пожарным', date: '2023', thumbnail: '/src/images/merphotos/gostipozharnie/в гости к пожарным.jpg', album: ['/src/images/merphotos/gostipozharnie/в гости к пожарным.jpg', '/src/images/merphotos/gostipozharnie/в гости к пожарным2.jpg', '/src/images/merphotos/gostipozharnie/в гости к пожарным3.jpg'] },
-      { id: 6, title: 'Осень золотая', date: '2023', thumbnail: '/src/images/merphotos/osenzolotaya/Осень Золотая1.jpg', album: ['/src/images/merphotos/osenzolotaya/Осень Золотая1.jpg', '/src/images/merphotos/osenzolotaya/ОсеньЗолотая2.jpg', '/src/images/merphotos/osenzolotaya/ОсеньЗолотая3.jpg'] },
-      { id: 7, title: 'Достижения России', date: '2023', thumbnail: '/src/images/merphotos/russiandost/ДостиженияРоссии.jpg', album: ['/src/images/merphotos/russiandost/ДостиженияРоссии.jpg', '/src/images/merphotos/russiandost/ДостиженияРоссии2.jpg', '/src/images/merphotos/russiandost/ДостиженияРоссии3.jpg'] },
-      { id: 8, title: 'Мама милая моя', date: '2023', thumbnail: '/src/images/merphotos/mama-milaya/мама_милая.jpg', album: ['/src/images/merphotos/mama-milaya/мама_милая.jpg', '/src/images/merphotos/mama-milaya/мама_милая2.jpg', '/src/images/merphotos/mama-milaya/мама_милая3.jpg'] },
-      { id: 9, title: 'Поход в Кремль', date: '2023', thumbnail: '/src/images/merphotos/kreml/поход в кремль1.jpg', album: ['/src/images/merphotos/kreml/поход в кремль1.jpg', '/src/images/merphotos/kreml/поход в кремль2.jpg', '/src/images/merphotos/kreml/поход в кремль3.jpg'] },
-      { id: 10, title: 'Волшебные шашки', date: '2022', thumbnail: '/src/images/merphotos/shashki/волшебныеШашки1.jpg', album: ['/src/images/merphotos/shashki/волшебныеШашки1.jpg', '/src/images/merphotos/shashki/волшебныеШашки2.jpg', '/src/images/merphotos/shashki/волшебныеШашки3.jpg'] },
-      { id: 11, title: 'Окно победы', date: '2023', thumbnail: '/src/images/merphotos/okno-pobedy/ОкнаПобеды1.jpg', album: ['/src/images/merphotos/okno-pobedy/ОкнаПобеды1.jpg', '/src/images/merphotos/okno-pobedy/ОкнаПобеды2.jpg', '/src/images/merphotos/okno-pobedy/ОкнаПобеды3.jpg'] },
-      { id: 12, title: 'Пасхальные яйца', date: '2023', thumbnail: '/src/images/merphotos/pasha/ПасхальныеЯйца1.jpg', album: ['/src/images/merphotos/pasha/ПасхальныеЯйца1.jpg', '/src/images/merphotos/pasha/ПасхальныеЯйца2.jpg', '/src/images/merphotos/pasha/ПасхальныеЯйца3.jpg'] }
+      { id: 1, title: 'Гуляй Масленица 2', date: '2023', thumbnail: '../../public/images/merphotos/maslenca2/Массленница1.jpg', album: ['../../public/images/merphotos/maslenca2/Массленница1.jpg', '../../public/images/merphotos/maslenca2/Массленица2.jpg', '../../public/images/merphotos/maslenca2/Массленица3.jpg'] },
+      { id: 2, title: 'День знаний', date: '2023', thumbnail: '../../public/images/merphotos/denznaniy/день знаний.jpg', album: ['../../public/images/merphotos/denznaniy/день знаний.jpg', '../../public/images/merphotos/denznaniy/день знаний2.jpg', '../../public/images/merphotos/denznaniy/день знаний3.jpg'] },
+      { id: 3, title: 'Гуляния Масленица', date: '2021', thumbnail: '../../public/images/merphotos/maslenica2021/гуляй масленница1.jpg', album: ['../../public/images/merphotos/maslenica2021/гуляй масленница1.jpg', '../../public/images/merphotos/maslenica2021/гуляй масленница2.jpg', '../../public/images/merphotos/maslenica2021/гуляй масленница3.jpg'] },
+      { id: 4, title: 'Викторина знатоки дорог', date: '2023', thumbnail: '../../public/images/merphotos/victorina_dorog/викторинаПДД1.jpg', album: ['../../public/images/merphotos/victorina_dorog/викторинаПДД1.jpg', '../../public/images/merphotos/victorina_dorog/ВикторинаПДД2.jpg', '../../public/images/merphotos/victorina_dorog/ВикторинаПДД3.jpg'] },
+      { id: 5, title: 'В гости пожарным', date: '2023', thumbnail: '../../public/images/merphotos/gostipozharnie/в гости к пожарным.jpg', album: ['../../public/images/merphotos/gostipozharnie/в гости к пожарным.jpg', '../../public/images/merphotos/gostipozharnie/в гости к пожарным2.jpg', '../../public/images/merphotos/gostipozharnie/в гости к пожарным3.jpg'] },
+      { id: 6, title: 'Осень золотая', date: '2023', thumbnail: '../../public/images/merphotos/osenzolotaya/Осень Золотая1.jpg', album: ['../../public/images/merphotos/osenzolotaya/Осень Золотая1.jpg', '../../public/images/merphotos/osenzolotaya/ОсеньЗолотая2.jpg', '../../public/images/merphotos/osenzolotaya/ОсеньЗолотая3.jpg'] },
+      { id: 7, title: 'Достижения России', date: '2023', thumbnail: '../../public/images/merphotos/russiandost/ДостиженияРоссии.jpg', album: ['../../public/images/merphotos/russiandost/ДостиженияРоссии.jpg', '../../public/images/merphotos/russiandost/ДостиженияРоссии2.jpg', '../../public/images/merphotos/russiandost/ДостиженияРоссии3.jpg'] },
+      { id: 8, title: 'Мама милая моя', date: '2023', thumbnail: '../../public/images/merphotos/mama-milaya/мама_милая.jpg', album: ['../../public/images/merphotos/mama-milaya/мама_милая.jpg', '../../public/images/merphotos/mama-milaya/мама_милая2.jpg', '../../public/images/merphotos/mama-milaya/мама_милая3.jpg'] },
+      { id: 9, title: 'Поход в Кремль', date: '2023', thumbnail: '../../public/images/merphotos/kreml/поход в кремль1.jpg', album: ['../../public/images/merphotos/kreml/поход в кремль1.jpg', '../../public/images/merphotos/kreml/поход в кремль2.jpg', '../../public/images/merphotos/kreml/поход в кремль3.jpg'] },
+      { id: 10, title: 'Волшебные шашки', date: '2022', thumbnail: '../../public/images/merphotos/shashki/волшебныеШашки1.jpg', album: ['../../public/images/merphotos/shashki/волшебныеШашки1.jpg', '../../public/images/merphotos/shashki/волшебныеШашки2.jpg', '../../public/images/merphotos/shashki/волшебныеШашки3.jpg'] },
+      { id: 11, title: 'Окно победы', date: '2023', thumbnail: '../../public/images/merphotos/okno-pobedy/ОкнаПобеды1.jpg', album: ['../../public/images/merphotos/okno-pobedy/ОкнаПобеды1.jpg', '../../public/images/merphotos/okno-pobedy/ОкнаПобеды2.jpg', '../../public/images/merphotos/okno-pobedy/ОкнаПобеды3.jpg'] },
+      { id: 12, title: 'Пасхальные яйца', date: '2023', thumbnail: '../../public/images/merphotos/pasha/ПасхальныеЯйца1.jpg', album: ['../../public/images/merphotos/pasha/ПасхальныеЯйца1.jpg', '../../public/images/merphotos/pasha/ПасхальныеЯйца2.jpg', '../../public/images/merphotos/pasha/ПасхальныеЯйца3.jpg'] }
     ]);
     const visibleEvents = ref(new Set());
     const isModalOpen = ref(false);
@@ -110,7 +109,7 @@ body {
   margin: 0;
   padding: 0;
   color: #3f635f;
-  background-image: url('../images/background.png');
+  background-image: url('../../public/images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

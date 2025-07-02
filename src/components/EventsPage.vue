@@ -9,7 +9,7 @@
     <!-- Event Grid -->
     <div class="event-grid">
       <div v-for="event in events" :key="event.id" class="event-card fade-section" :class="{ appear: isVisible(event.id) }">
-        <img src="../images/event2.png" alt="Event Image">
+        <img src="../../public/images/event2.png" alt="Event Image">
         <h3>{{ event.title }}</h3>
         <p>{{ event.date }}</p>
         <p>{{ event.description }}</p>

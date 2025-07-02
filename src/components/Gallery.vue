@@ -2,11 +2,11 @@
   <section class="gallery-section fade-section" id="gallery">
     <h2>Галерея</h2>
     <div class="gallery-grid">
-      <img src="../images/galery1.png" alt="Событие 1"/>
-      <img src="../images/galery2.png" alt="Событие 2"/>
-      <img src="../images/galery3.png" alt="Событие 3"/>
-      <img src="../images/galery4.png" alt="Событие 4"/>
-      <img src="../images/galery5.png" alt="Событие 5"/>
+      <img src="../../public/images/galery1.png" alt="Событие 1"/>
+      <img src="../../public/images/galery2.png" alt="Событие 2"/>
+      <img src="../../public/images/galery3.png" alt="Событие 3"/>
+      <img src="../../public/images/galery4.png" alt="Событие 4"/>
+      <img src="../../public/images/galery5.png" alt="Событие 5"/>
     </div>
     <button @click="viewAllGallery">Вся галерея</button>
   </section>
@@ -32,7 +32,7 @@ button:hover {
 .gallery-section {
   padding: 2rem;
   text-align: center;
-  background-image: url("../images/background.png");
+  background-image: url("../../public/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

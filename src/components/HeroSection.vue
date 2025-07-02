@@ -1,6 +1,6 @@
 <template>
   <section class="hero-section ">
-    <img src="../images/hero.png" alt="Hero" class="hero-image" />
+    <img src="../../public/images/hero.png" alt="Hero" class="hero-image" />
     <div class="hero-text-box">
       <h2>ДОБРО ПОЖАЛОВАТЬ!</h2>
       <p>Мы рады приветствовать вас на официальном сайте муниципального бюджетного

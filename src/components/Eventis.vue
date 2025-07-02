@@ -4,7 +4,7 @@
     <div class="event-cards">
       <div class="event-card" v-for="event in events" :key="event.id">
         <div class="event-card-image-block">
-          <img src="../images/event2.png" alt="event image" class="event-card-image" />
+          <img src="../../public/images/event2.png" alt="event image" class="event-card-image" />
         </div>
         <div class="event-card-info">
           <h3 class="event-card-title">{{ event.title }}</h3>
