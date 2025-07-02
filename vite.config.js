@@ -8,6 +8,9 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  build: {
+    outDir: 'docs',
+  },
   test: {
     environment: 'jsdom',
     exclude: ['e2e/*', 'node_modules/**/*'], // Исключение тестов из node_modules
