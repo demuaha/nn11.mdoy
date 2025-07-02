@@ -46,7 +46,7 @@ export default defineComponent({
   },
   setup() {
     const events = ref([
-      { id: 1, title: 'Гуляй Масленица 2', date: '2023', thumbnail: '../../images/merphotos/maslenca2/Массленница1.jpg', album: ['../../images/merphotos/maslenca2/Массленница1.jpg', '../../public/images/merphotos/maslenca2/Массленица2.jpg', '../../public/images/merphotos/maslenca2/Массленица3.jpg'] },
+      { id: 1, title: 'Гуляй Масленица 2', date: '2023', thumbnail: './images/merphotos/maslenca2/Массленница1.jpg', album: ['../../images/merphotos/maslenca2/Массленница1.jpg', '../../public/images/merphotos/maslenca2/Массленица2.jpg', '../../public/images/merphotos/maslenca2/Массленица3.jpg'] },
       { id: 2, title: 'День знаний', date: '2023', thumbnail: '../../public/images/merphotos/denznaniy/день знаний.jpg', album: ['../../public/images/merphotos/denznaniy/день знаний.jpg', '../../public/images/merphotos/denznaniy/день знаний2.jpg', '../../public/images/merphotos/denznaniy/день знаний3.jpg'] },
       { id: 3, title: 'Гуляния Масленица', date: '2021', thumbnail: '../../public/images/merphotos/maslenica2021/гуляй масленница1.jpg', album: ['../../public/images/merphotos/maslenica2021/гуляй масленница1.jpg', '../../public/images/merphotos/maslenica2021/гуляй масленница2.jpg', '../../public/images/merphotos/maslenica2021/гуляй масленница3.jpg'] },
       { id: 4, title: 'Викторина знатоки дорог', date: '2023', thumbnail: '../../public/images/merphotos/victorina_dorog/викторинаПДД1.jpg', album: ['../../public/images/merphotos/victorina_dorog/викторинаПДД1.jpg', '../../public/images/merphotos/victorina_dorog/ВикторинаПДД2.jpg', '../../public/images/merphotos/victorina_dorog/ВикторинаПДД3.jpg'] },
