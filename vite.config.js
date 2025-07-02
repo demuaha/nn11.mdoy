@@ -8,6 +8,7 @@ export default defineConfig({
       '@': '/src',
     },
   },
+  base: 'nn11.mdoy',
   build: {
     outDir: 'docs',
   },
