@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 !important;
+}
+section {
+    scroll-margin-top: 80px;
+}
+.fade-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 2s ease;
+}
+
+.fade-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
