@@ -40,16 +40,16 @@ export default {
       currentIndex: 0,
       testimonials: [
         {
-          image: "/src/images/merphotos/pasha/ПасхальныеЯйца1.jpg",
+          image: "./images/merphotos/pasha/ПасхальныеЯйца1.jpg",
 
         },
         {
-          image: "./src/images/merphotos/shashki/волшебныеШашки1.jpg",
+          image: "./images/merphotos/shashki/волшебныеШашки1.jpg",
         },
         {
-          image: "/src/images/merphotos/kreml/поход в кремль1.jpg",
+          image: "./images/merphotos/kreml/поход в кремль1.jpg",
         }, {
-          image: "/src/images/merphotos/victorina_dorog/викторинаПДД1.jpg",
+          image: "./images/merphotos/victorina_dorog/викторинаПДД1.jpg",
         },
       ],
       interval: null,
