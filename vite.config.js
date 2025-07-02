@@ -1,14 +1,14 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-export default defineConfig({
+export default defineConfig(({mode}) => ({
   plugins: [vue()],
   resolve: {
     alias: {
       '@': '/src',
     },
   },
-  base: 'nn11.mdoy',
+  base: mode === 'production' ? '/nn11.mdoy/' : '/',
   build: {
     outDir: 'docs',
   },
@@ -19,4 +19,4 @@ export default defineConfig({
       inline: ['vue'],
     },
   },
-});
+}));
